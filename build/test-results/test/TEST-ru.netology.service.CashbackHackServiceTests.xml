@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.netology.service.CashbackHackServiceTests" tests="4" skipped="0" failures="1" errors="0" timestamp="2022-01-26T22:57:23" hostname="DESKTOP-RJJH38L" time="0.016">
+<testsuite name="ru.netology.service.CashbackHackServiceTests" tests="4" skipped="0" failures="1" errors="0" timestamp="2022-01-26T23:04:22" hostname="DESKTOP-RJJH38L" time="0.016">
   <properties/>
   <testcase name="aboveThousandPurchase" classname="ru.netology.service.CashbackHackServiceTests" time="0.0"/>
   <testcase name="belowThousandPurchase" classname="ru.netology.service.CashbackHackServiceTests" time="0.0"/>
   <testcase name="errorPurchase" classname="ru.netology.service.CashbackHackServiceTests" time="0.0">
-    <failure message="java.lang.AssertionError: expected:&lt;0&gt; but was:&lt;1000&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;0&gt; but was:&lt;1000&gt;
-	at org.testng.AssertJUnit.fail(AssertJUnit.java:47)
-	at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:330)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:66)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:213)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:218)
-	at ru.netology.service.CashbackHackServiceTests.errorPurchase(CashbackHackServiceTests.java:42)
+    <failure message="java.lang.AssertionError: expected [0] but found [1000]" type="java.lang.AssertionError">java.lang.AssertionError: expected [0] but found [1000]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:839)
+	at org.testng.Assert.assertEquals(Assert.java:849)
+	at ru.netology.service.CashbackHackServiceTests.errorPurchase(CashbackHackServiceTests.java:41)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
