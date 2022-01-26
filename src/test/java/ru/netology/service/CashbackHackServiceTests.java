@@ -1,7 +1,6 @@
 package ru.netology.service;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
+import org.junit.*;
 
 public class CashbackHackServiceTests {
 
